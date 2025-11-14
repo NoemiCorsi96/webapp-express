@@ -26,8 +26,8 @@ Flusso logico:
 4. Creare una nuova applicazione express 
     4.1 Dipendenze: 
     -express
-    -mysql2
-    4.2 Creare un server express basic con l'endpoint ('/') 
+    -mysql2 [X]
+    4.2 Creare un server express basic con l'endpoint ('/') [X]
     4.3 Creare un file Env e Env.example per le credenziali 
     4.4 Modificare il fil package.json con ---watch --env-file 
 5. Importare il db e fare il file connection.js, verificare che tutto funzioni con il consol.log nel terminale, verificandolo con Postman 
