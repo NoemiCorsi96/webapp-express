@@ -36,5 +36,5 @@ Flusso logico:
 8. Inserire le immagini nel progetto 
 9. Inserire le API nel controller[X]
 10. Fare routing [X]
-11. Inserire un middleware per le rotte inesistenti
+11. Inserire un middleware per le rotte inesistenti[X]
 12. Inserire un middleware per la gestione errori

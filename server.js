@@ -11,3 +11,10 @@ app.get('/', (req, res) => {
     res.json({ message: 'ciao' });
 })
 app.use('/api/movies', moviesRouter);
+
+//Middleware per errore 404
+app.use((req, res) => {
+    res.status(404).json({ message: 'Route not found' });
+
+})
+
