@@ -35,6 +35,6 @@ Flusso logico:
 7. Prepare la rotta show per ottenere i dettagli di un singolo film e le sue recensioni [X]
 8. Inserire le immagini nel progetto 
 9. Inserire le API nel controller
-10. Fare routing 
+10. Fare routing [X]
 11. Inserire un middleware per le rotte inesistenti
 12. Inserire un middleware per la gestione errori
