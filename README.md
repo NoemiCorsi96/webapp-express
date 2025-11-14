@@ -32,7 +32,7 @@ Flusso logico:
     4.4 Modificare il fil package.json con ---watch --env-file [X]
 5. Importare il db e fare il file connection.js, verificare che tutto funzioni con il consol.log nel terminale, verificandolo con Postman [X]
 6. Prepare la rotta index per vedere tutta la lista dei film [X]
-7. Prepare la rotta show per ottenere i dettagli di un singolo film e le sue recensioni 
+7. Prepare la rotta show per ottenere i dettagli di un singolo film e le sue recensioni [X]
 8. Inserire le immagini nel progetto 
 9. Inserire le API nel controller
 10. Fare routing 
