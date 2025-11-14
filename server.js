@@ -9,3 +9,11 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
     res.json({ message: 'ciao' });
 })
+//Prepariamo una rotta index per ottenere la lista dei film//
+app.get('/api/movies', (req, res) => {
+    const sql = 'SELECT * FROM web_app.movies';
+    connection.query(sql, (err, results) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json({ movie: results });
+    })
+})

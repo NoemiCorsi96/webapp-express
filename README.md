@@ -28,10 +28,10 @@ Flusso logico:
     -express
     -mysql2 [X]
     4.2 Creare un server express basic con l'endpoint ('/') [X]
-    4.3 Creare un file Env e Env.example per le credenziali 
-    4.4 Modificare il fil package.json con ---watch --env-file 
-5. Importare il db e fare il file connection.js, verificare che tutto funzioni con il consol.log nel terminale, verificandolo con Postman 
-6. Prepare la rotta index per vedere tutta la lista dei film 
+    4.3 Creare un file Env e Env.example per le credenziali [X]
+    4.4 Modificare il fil package.json con ---watch --env-file [X]
+5. Importare il db e fare il file connection.js, verificare che tutto funzioni con il consol.log nel terminale, verificandolo con Postman [X]
+6. Prepare la rotta index per vedere tutta la lista dei film [X]
 7. Prepare la rotta show per ottenere i dettagli di un singolo film e le sue recensioni 
 8. Inserire le immagini nel progetto 
 9. Inserire le API nel controller
