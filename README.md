@@ -37,4 +37,4 @@ Flusso logico:
 9. Inserire le API nel controller[X]
 10. Fare routing [X]
 11. Inserire un middleware per le rotte inesistenti[X]
-12. Inserire un middleware per la gestione errori
+12. Inserire un middleware per la gestione errori [X]
