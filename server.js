@@ -4,6 +4,8 @@ const PORT = process.env.PORT || 3000;
 const moviesRouter = require('./routes/movies')
 const notFound = require('./middleware/notFound');
 const serverError = require('./middleware/serverError');
+const cors = require('cors');
+app.use(cors({ origin: "http://localhost:5173" }));
 app.listen(PORT, () => {
     console.log(`Server is running on port http://localhost:${PORT}`);
 })
